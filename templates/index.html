@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Educational Quiz</h1>
+    <form id="subject-form" method="POST">
+        <label for="subject">Enter the subject you need help with:</label><br>
+        <input type="text" id="subject" name="subject"><br><br>
+        <button type="submit">Start Quiz</button>
+    </form>
+</body>
+</html>
 
